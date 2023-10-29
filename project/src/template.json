@@ -1,0 +1,39 @@
+{
+    "job": {
+        "setting": {
+            "speed": {
+                 "channel": 1
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "",
+                        "password": "",
+                        "connection": [
+                            {
+                                "querySql": "",
+                                "jdbcUrl": ""
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "hdfswriter",
+                    "parameter": {
+                        "defaultFS": "",
+                        "fileType": "",
+                        "path": "",
+                        "fileName": "",
+                        "column": [],
+                        "writeMode": "",
+                        "fieldDelimiter": "",
+                        "compress":""
+                    }
+                }
+            }
+        ]
+    }
+}
